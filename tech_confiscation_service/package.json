@@ -1,0 +1,13 @@
+{
+    "name": "tech_confiscation_service",
+    "version": "1.0.0",
+    "description": "Microservice for alien tech confiscation",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "body-parser": "^1.20.2",
+      "express": "^4.18.2"
+    }
+}

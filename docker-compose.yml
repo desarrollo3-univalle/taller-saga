@@ -1,0 +1,48 @@
+services:
+  verification_service: 
+    build: ./verification_service
+    container_name: verification_service
+    ports:
+      - "5001:5001"
+
+  tech_confiscation_service: 
+    build: ./tech_confiscation_service
+    container_name: tech_confiscation_service
+    ports:
+      - "5002:5002"
+
+  quarantine_service: 
+    build: ./quarantine_service
+    container_name: quarantine_service
+    ports:
+      - "5003:5003"
+
+  location_assignment_service: 
+    build: ./location_assignment_service
+    container_name: location_assignment_service
+    ports:
+      - "5004:5004"
+
+  galactic_command_service: 
+    build: ./galactic_command_service
+    container_name: galactic_command_service
+    ports:
+      - "5005:5005"
+
+  orchestrator:
+    build: ./orchestrator
+    container_name: orchestrator
+    ports:
+      - "5000:5000"
+    depends_on:
+      - verification_service
+      - tech_confiscation_service
+      - quarantine_service
+      - location_assignment_service
+      - galactic_command_service
+    environment:
+      - VERIFICATION_URL=http://verification_service:5001
+      - TECH_CONFISCATION_URL=http://tech_confiscation_service:5002
+      - QUARANTINE_URL=http://quarantine_service:5003
+      - LOCATION_ASSIGNMENT_URL=http://location_assignment_service:5004
+      - GALACTIC_COMMAND_URL=http://galactic_command_service:5005
