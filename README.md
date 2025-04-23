@@ -2,6 +2,7 @@
 
 - Juan Camilo Valencia - 2259459
 - Luis Carabalí Rivera - 2410006
+- Juan Sebastian Miller - 2324115
 
 # 👽 Alien Immigration Control System - Saga Pattern Simulation
 
