@@ -96,7 +96,7 @@ curl -X POST http://localhost:5004/remove-from-city -H "Content-Type: applicatio
 curl http://localhost:5004/assignments
 ```
 
-### 司令部 Galactic Command Service (http://localhost:5005)
+### 🚓 Galactic Command Service (http://localhost:5005)
 
 ```bash
 # Notify Failure (Called by Orchestrator)
