@@ -1,6 +1,7 @@
 # Team members:
 
 - Juan Camilo Valencia - 2259459
+- Luis Carabalí Rivera - 2410006
 
 # 👽 Alien Immigration Control System - Saga Pattern Simulation
 
