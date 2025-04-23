@@ -5,6 +5,7 @@
 - Juan Sebastian Miller - 2324115
 - Ivan Alexis Noriega - 2126012
 - Ana Sofia Mezu - 2225958
+- John Freidy Lourido - 1124153
 - Leandro Acevedo - 2041437
 
 # 👽 Alien Immigration Control System - Saga Pattern Simulation
