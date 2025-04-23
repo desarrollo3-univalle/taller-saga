@@ -7,6 +7,7 @@
 - Ana Sofia Mezu - 2225958
 - John Freidy Lourido - 1124153
 - Leandro Acevedo - 2041437
+- Nicolas Garces - 2180066
 
 # 👽 Alien Immigration Control System - Saga Pattern Simulation
 
