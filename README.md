@@ -5,6 +5,8 @@
 - Juan Sebastian Miller - 2324115
 - Ivan Alexis Noriega - 2126012
 - Ana Sofia Mezu - 2225958
+- Leandro Acevedo - 2041437
+
 # 👽 Alien Immigration Control System - Saga Pattern Simulation
 
 This project simulates the **Saga Pattern** for an Alien Immigration Control System using microservices communicating over HTTP via REST. The architecture follows a centralized orchestrator model to coordinate the distributed transaction.
